@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="45.917">
+<testcase classname="To check the Buy Items functionality" name="To check if user is successful to buy items with valid credentials" time="19.454">
+<system-out><![CDATA[Given User is  on login page................................................passed
+And User enters the details.................................................passed
+And Clicks on Estimate shipping.............................................passed
+And User check the box to accept the terms and services.....................passed
+When User clicks on checkout................................................passed
+Then user is navigated to the Checkout Page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the Buy Items functionality" name="To check if user is able to proceed after entering valid credentials" time="12.18">
+<system-out><![CDATA[Given User is on Checkout page..............................................passed
+And User enters the valid details in fields.................................passed
+When User hits enter on Continue button.....................................passed
+Then user is able to proceed further........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the Buy Items functionality" name="To check if user is able to proceed after entering invalid" time="7.339">
+<system-out><![CDATA[Given User landed on Checkout page..........................................passed
+And User enters the alphanumeric details in First Name......................passed
+When User press click on Continue button....................................passed
+Then user is able to go ahead...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the Buy Items functionality" name="To check if user is able to proceed after leaving the mandatory" time="3.783">
+<system-out><![CDATA[Given User gets on Checkout page............................................passed
+And User enters the valid First name, Last name.............................passed
+When User is proceed to click on Continue button............................passed
+Then user gets a message displayed..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the Buy Items functionality" name="To check if user is able to proceed after entering invalid credentials" time="1.929">
+<system-out><![CDATA[Given User is Checkout page.................................................passed
+And User enters the First name, Last name...................................passed
+And User enter the Email without special character '@'......................passed
+When User clicks on Continue button.........................................passed
+Then user gets a message....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

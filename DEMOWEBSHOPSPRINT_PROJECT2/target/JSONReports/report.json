@@ -1,0 +1,346 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-14T18:24:57.757Z",
+        "line": 2,
+        "name": "To check if user is successful to buy items with valid credentials",
+        "description": "",
+        "id": "to-check-the-buy-items-functionality;to-check-if-user-is-successful-to-buy-items-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15302504600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is  on login page",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 675479000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters the details",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_enters_the_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 890046500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Clicks on Estimate shipping",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.clicks_on_estimate_shipping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164118600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User check the box to accept the terms and services",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_check_the_box_to_accept_the_terms_and_services()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1937666400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on checkout",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_clicks_on_checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 500700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the Checkout Page",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_is_navigated_to_the_checkout_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T18:25:17.246Z",
+        "line": 12,
+        "name": "To check if user is able to proceed after entering valid credentials",
+        "description": "",
+        "id": "to-check-the-buy-items-functionality;to-check-if-user-is-able-to-proceed-after-entering-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 278698000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Checkout page",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_is_on_checkout_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5009974900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters the valid details in fields",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_enters_the_valid_details_in_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6872372500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User hits enter on Continue button",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_hits_enter_on_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is able to proceed further",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_is_able_to_proceed_further()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T18:25:29.447Z",
+        "line": 20,
+        "name": "To check if user is able to proceed after entering invalid",
+        "description": "\tcredentials ",
+        "id": "to-check-the-buy-items-functionality;to-check-if-user-is-able-to-proceed-after-entering-invalid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User landed on Checkout page",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_landed_on_checkout_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7328673300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters the alphanumeric details in First Name",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_enters_the_alphanumeric_details_in_first_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User press click on Continue button",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_press_click_on_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 499300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is able to go ahead",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_is_able_to_go_ahead()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T18:25:36.809Z",
+        "line": 28,
+        "name": "To check if user is able to proceed after leaving the mandatory",
+        "description": "\tfields ",
+        "id": "to-check-the-buy-items-functionality;to-check-if-user-is-able-to-proceed-after-leaving-the-mandatory",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 501500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User gets on Checkout page",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_gets_on_checkout_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3769537700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enters the valid First name, Last name",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_enters_the_valid_first_name_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User is proceed to click on Continue button",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_is_proceed_to_click_on_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 500700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user gets a message displayed",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_gets_a_message_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T18:25:40.630Z",
+        "line": 36,
+        "name": "To check if user is able to proceed after entering invalid credentials",
+        "description": "",
+        "id": "to-check-the-buy-items-functionality;to-check-if-user-is-able-to-proceed-after-entering-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User is Checkout page",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_is_checkout_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 449819400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User enters the First name, Last name",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_enters_the_first_name_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1473392900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User enter the Email without special character \u0027@\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027@\u0027",
+                  "offset": 47
+                }
+              ],
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_enter_the_email_without_special_character(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User clicks on Continue button",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_clicks_on_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 499300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user gets a message",
+            "match": {
+              "location": "com.buyItemsStepsDefinition.BuyItemsStepsDefinition.user_gets_a_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To check the Buy Items functionality",
+    "description": "",
+    "id": "to-check-the-buy-items-functionality",
+    "keyword": "Feature",
+    "uri": "file:///C:/Users/pc/eclipse-workspace/SPRINT_PROJECT/src/test/java/BuyItemsFeatures/BuyItems.feature",
+    "tags": []
+  }
+]
